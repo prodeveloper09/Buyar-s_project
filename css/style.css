@@ -1,0 +1,327 @@
+*,
+::after,
+::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ----- navber css start ------ */
+.navbar{
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+.navbar-light .navbar-nav .nav-item{
+  padding: 20px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  color:#fefeff;
+  text-transform: uppercase;
+  position: relative;
+  border-bottom: solid 1px #fefeff;
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fefeff;
+  text-decoration: none;
+  background: none;
+}
+
+.navbar-expand-lg {
+  padding: 0;
+}
+
+
+
+.banner {
+  background-image: url('../img/banner01.png');
+  padding: 412px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sticy_nav{
+  background: #ffff;
+}
+
+.banner_bottom_items{
+  display: inline-flex;
+
+}
+
+.banner_bottom_items img {
+  padding: 15px 0 10px 0;
+}
+.banner_bottom_items h6{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #4d4d4d;
+  padding: 20px 0 15px 0;
+  margin: 0;
+  padding-left: 10px;
+  line-height: .8;
+}
+
+.banner_bottom_items h6 span{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #414f6b;
+  line-height: 0;
+  letter-spacing: 0.9px;
+}
+ul{
+  list-style-type: none;
+}
+a:hover {
+  color: #414f6b;
+  text-decoration: none;
+}
+.bottom_item_right ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.bottom_item_right ul li a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  color:#414f6b ;
+  border-bottom: solid 1px #414f6b;
+  margin-left: 50px;
+}
+
+/* ------banner css end -------- */
+
+/* ------ history css start ----------- */
+
+.history{
+  background-image: url('../img/banner02.png');
+  padding: 350px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.history_items h5{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 135px;
+  color: #414f6b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -322px;
+}
+
+.history_items h5 span{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  position: absolute;
+  bottom:38px;
+}
+
+.history_items h5 span::before{
+  position: absolute;
+  content: "";
+  background-color: #414f6b;
+  width: 20px;
+  height: 20px;
+  bottom: -19px;
+ 
+}
+
+.history_items p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  margin-top: -182px;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.history_slider{
+  background-image: url('../img/banner02mini.png');
+  padding: 20px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.team_img{
+  padding-left: 2px;
+}
+
+.slick-list ul li button{
+  display: inline-block;
+}
+
+.c_items h5{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 135px;
+  color: #414f6b;
+}
+
+.c_items h5 span{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  position: absolute;
+  bottom: 45px;
+}
+
+.c_items h5 span::before {
+  position: absolute;
+  content: "";
+  background-color: #414f6b;
+  width: 20px;
+  height: 20px;
+  bottom: -18px;
+}
+
+.c_items2 p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  position: absolute;
+  margin-top: 68px;
+}
+ /* ---------- history css end -------- */
+
+/* -------- footer css start ------- */
+.footer {
+  background-color: #414f6b;
+  height: 45px;
+  width: 100%;
+  position: absolute;
+  margin-top: -288px;
+}
+
+.footer_items .nav-link {
+  margin-top: -289px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #b0b4be;
+  margin-right: 10px;
+}
+
+.footer_items .nav-link
+
+.schedule_section .schedule p {
+  margin-top: -156px;
+  position: absolute;
+}
+
+.sheduel_bg {
+  background-image: url('../img/banner03.png');
+  padding: 250px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 40px;
+}
+
+.schedule {
+  background: #edeff2;
+  width: 350px;
+  height: 225px;
+  margin-top: -88px;
+  opacity: .9;
+  padding: 20px 40px;
+}
+.schedule h6{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+}
+
+.schedule h5{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #414f6b;
+}
+
+.nav-link:focus, .nav-link:hover {
+  text-decoration: underline;
+  background: #b0b4be;
+  color:#414f6b;
+}
+
+.footer_butom{
+  background: #414f6b;
+}
+.footer_bottom_items h6{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #63769d;
+  padding: 20px 0 15px 0;
+  margin: 0;
+  padding-left: 10px;
+  line-height: .8;
+}
+.footer_bottom_items{
+  display: inline-flex;
+
+}
+
+.footer_bottom_items img {
+  padding: 15px 0 10px 0;
+}
+
+.bottom_item_right p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  color: #63769d;
+  margin-top: 28px;
+}
+
+.menu_box{
+  animation:item 1s;
+  background: #414f6b;
+  opacity: .9;
+}
+
+@keyframes item{
+  from {top: -100px;
+  }
+  to {top: 0px;}
+}
+
+/* ------ slick slider css --------- */
+
+.slick-dots li button:before {
+  opacity: .60;
+  color: #fff;
+}
+
+
+
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; */
